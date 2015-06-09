@@ -35,7 +35,6 @@ def addToLib(fileName, currLib):
 def markov_next(currword, probDict):
 	if currword not in probDict.keys():
 		return random.choice(probDict.keys())
-	
 	else: 
 		wordprobs = probDict[currword]
 		randProb = random.uniform(0.0, 1.0)
@@ -59,4 +58,6 @@ def testMarkov(startword):
 	addToLib('allLyrics.txt', rapLib)
 	return makeRap(startword, rapLib)
 
-print testMarkov('yo')
+startWord = raw_input("What do you want to start your rap with?\n")
+
+print testMarkov('\nAlright, here\'s your rap: \n' + testMarkov(startWord))

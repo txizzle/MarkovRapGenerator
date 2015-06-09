@@ -1,5 +1,6 @@
 # Markov_Rap_Generator
-# By Ted Xiao, 2014
+Ted Xiao, 2014
+
 
 ##What is it?
 Markov_Rap_Generator generates, well, rap songs. It uses a Markov Chain that you can extend by adding lyrics. A sample seeded Markov Chain has been included.
@@ -9,3 +10,4 @@ Simply run MarkovRap.py and follow the command line prompts. If you want to add 
 
 ##This is useless. Why did you make this?
 I was bored. 
+
